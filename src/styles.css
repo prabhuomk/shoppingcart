@@ -1,0 +1,26 @@
+.ShoppingCart {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ShoppingCart {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 608px) {
+  .ShoppingCart {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://5.imimg.com/data5/QD/FC/MY-1509478/e-commerce-support-500x500.jpg");
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 280px;
+  color: orangered;
+  background-color: black;
+}
